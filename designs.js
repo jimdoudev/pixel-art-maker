@@ -3,8 +3,10 @@
 
 // When size is submitted by the user, call makeGrid()
 
-function makeGrid() {
+let rows = document.getElementById('inputHeight').value;
+let columns = document.getElementById('inputWeight').value;
+let html = ""
 
-// Your code goes here!
+function makeGrid() {
 
 }

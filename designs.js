@@ -16,3 +16,14 @@ let columns = document.getElementById('inputWeight').value;
 	}
 	document.getElementById('pixelCanvas').innerHTML += html;
 }
+
+let submitButton = document.getElementById('sizePicker');
+submitButton.addEventListener('submit', function (e) {
+	e.preventDefault();
+	const grid = document.querySelector('tbody');
+	if (grid !== null) {
+		grid.remove();
+		makeGrid();
+	} else { makeGrid();};
+
+});

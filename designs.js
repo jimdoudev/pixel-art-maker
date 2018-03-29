@@ -2,7 +2,6 @@
 // Select size input
 
 // When size is submitted by the user, call makeGrid()
-
 function makeGrid() {
 let html = "";
 let rows = document.getElementById('inputHeight').value;
@@ -15,7 +14,7 @@ let columns = document.getElementById('inputWeight').value;
 		html += '</tr>';
 	}
 	document.getElementById('pixelCanvas').innerHTML += html;
-}
+};
 
 let submitButton = document.getElementById('sizePicker');
 submitButton.addEventListener('submit', function (e) {
@@ -25,5 +24,13 @@ submitButton.addEventListener('submit', function (e) {
 		grid.remove();
 		makeGrid();
 	} else { makeGrid();};
-
 });
+
+	const table = document.querySelector('#pixelCanvas');
+	table.addEventListener('mousedown', function (e) {
+		const pixelColor = document.querySelector('#colorPicker').value;
+		if(e.target.nodeName === 'TD') {
+			e.target.setAttribute("style", `background-color: ${pixelColor}; border-color: ${pixelColor};`);
+		};
+	});
+

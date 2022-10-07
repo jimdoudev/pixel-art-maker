@@ -1,16 +1,7 @@
 # Pixel Art Maker Project
 
-## Table of Contents
-
-* [Instructions](#instructions)
-* [Contributing](#contributing)
+This is a project created for a Udacity Front End Developer Course.
 
 ## Instructions
 
-To get started, open `designs.js` and start building out the app's functionality.
-
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+To get started, just enter a number to determine the Grid Height, another one to determine the Grid Width and click on Create!".Click on the desired rectangles to create your own unique Pixel Art by painting each one of them with the color you previously chose through the color picker.

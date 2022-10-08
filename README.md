@@ -2,8 +2,6 @@
 
 This is a project created for a Udacity Front End Developer Course.
 
----
-
 ## Instructions
 
 - To get started, just enter a number to determine the Grid Height, another one to determine the Grid Width and click on Create!".
